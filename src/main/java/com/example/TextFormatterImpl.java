@@ -7,6 +7,7 @@ import java.util.List;
  * Created by MOlszi on 2017-02-28.
  */
 public class TextFormatterImpl implements TextFormatter {
+
     public void showText(String text) {
         List<String> texts = getSplittedInHalfText(text);
 
